@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="main.js"></script>
+	<meta charset="utf-8">
+	<title>Ладно</title>
+	<link rel="stylesheet" type="text/css" href="style6.css">
+</head>
+<body id="cont">
+
+<div class="head">
+<ul>
+		<image src ="img/logo.png" width="100"></image>
+	<li class="glav"><a href="https://i.pinimg.com/
+originals/80/59/e3/8059e336689af3fc256bf41d6d1ae4c5.jpg" target="_blank">Главная</a></li>
+	<li class="neg"><a href="https://i.pinimg.com/originals/80/59/e3/8059e336689af3fc256bf41d6d1ae4c5.jpg" target="_blank">Новости</a></li>
+	<li class="neg"><a href="https://i.pinimg.com/originals/80/59/e3/8059e336689af3fc256bf41d6d1ae4c5.jpg" target="_blank">Помощь</a></li>
+	<li class="neg"><a href="https://i.pinimg.com/originals/80/59/e3/8059e336689af3fc256bf41d6d1ae4c5.jpg" target="_blank">Мой кабинет</a></li>
+       <input id="message" type="text" name="" class="sear" onkeydown="sear(this)">
+       <input type="button" name="" value="=>" onclick="message()">
+</ul>
+</div>
+
+<div class="lad">
+	<h1>
+	<p id="part1">Ладно</p>
+	</h1>
+	    <img id="image" src="img/lampaoff.gif" onClick="imgsrc();">
+   <script language="javascript">
+        var i=0;
+        var image=document.getElementById("image");
+        var imgs=new Array('img/lampaoff.gif','img/lampaon.gif');
+        function imgsrc() {
+           i++;
+		   i%=imgs.length;
+           image.src = imgs[i];
+       }</script>
+           <form name=clock>
+           	<input type="text" size="17" name=full>
+           </form>
+           <script language="javascript">fulltime();</script>
+       }
+       </script> 
+
+<input type="button" value="ладно" onclick="fun1()"/>
+<input type="button" value="ладно" onclick="fun2()"/>
+<input type="button" value="чекни название страницы" onclick="fun4()"/>
+<input type="button" value="теперь точно поменял" onclick="fun5()"/>
+<input type="button" value="фон можно и получше" onclick="changeBg()"/>
+       </div>
+<center>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {background-image: url(img/ladno.jpg);
+max-width: 1000px;
+margin: 0 auto;
+background-image: url(img/aaaa.jpg);}
+li { display: inline;
+font-family: cursive;}
+.glav {
+	font-size: 50px;
+	margin-right: 20px;
+	margin-left:  20px;
+}
+.neg{
+	font-size: 30px;
+	margin-right: 20px;
+	margin-left:  20px;
+}
+body div {-webkit-box-sizing: border-box;}
+.head
+{background-color: brown;
+	width: 100%;
+padding: 20px;}
+.lad
+{
+	background-color: blue;
+}
+/*.btn {
+border-radius: 25px;
+border: none;}
+
+}/*/
